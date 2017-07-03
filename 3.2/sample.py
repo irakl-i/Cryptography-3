@@ -24,7 +24,7 @@ sigma = Sign(m)
 if sigma < 0:
     raise SystemExit
 
-if Verify(m,sigma):
+if Verify(m, sigma):
     print "Oracle is working properly!"
 
 Oracle_Disconnect()
